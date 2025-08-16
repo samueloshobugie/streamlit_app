@@ -4,7 +4,7 @@ from forms.contact import contact_form
 
  
 
-@st.experimental_dialog("contact me")
+@st.dialog("contact me")
 def show_contact_form():
     contact_form()
 
@@ -18,7 +18,7 @@ with col2:
         "Senior DevOps Engineer and Agentic AI Automation Expert."
     )
     if st.button("Contact Me"):
-        show_contact_form
+        show_contact_form()
 
 # --- experience ---
 st.write("\n")

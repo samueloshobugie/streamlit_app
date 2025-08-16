@@ -8,4 +8,4 @@ def contact_form():
         submit_button = st.form_submit_button("submit")
 
         if submit_button:
-            st.success("message sent")
+            st.success("Message successfully sent!")
