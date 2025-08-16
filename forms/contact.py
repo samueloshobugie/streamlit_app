@@ -3,7 +3,7 @@ import re
 import requests
 
 
-WEBHOOK_URL = ""
+WEBHOOK_URL = "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZhMDYzZTA0MzY1MjZmNTUzZDUxMzEi_pc"
 
 def is_valid_email(email):
     # ---basic regex pattern for email validation ---
