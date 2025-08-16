@@ -35,5 +35,9 @@ pg = st.navigation(
     }
 )
 
+# --- shared on all pages ---
+st.logo("assets/runnaira_logo.png")
+st.sidebar.text("Made with love by Sam")
+
 # --- Run Navigation ---
 pg.run()
